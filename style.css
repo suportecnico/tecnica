@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+ font-family: helvetica;
+}
+img {
+  padding-top: 75px;
+  border-radius: 100 100 100 100px;
+  width: 100%;
+  
+
+}
+body {
+  background-color: white;
+}
+ 
+container {
+ border: solid 2px #806868;
+ display: flex;
+  
+  
+}
+
+.item {
+ border: 2px solid #0a40bd;
+ padding: 10px;
+ margin: 5px;
+  background-color: #0a40bd;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.botfb {
+   background-color: #0a40bd;
+  text-align: center;
+   border-radius: 100px;
+}
+
+.link {
+  color: white;
+}
