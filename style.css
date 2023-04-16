@@ -8,7 +8,8 @@ h1 {
 }
 img {
   padding-top: 75px;
-  border-radius: 100 100 100 100px;
+  
+  border-radius: 50 0 50 0px;
   width: 100%;
   
 
@@ -17,11 +18,10 @@ body {
   background-color: white;
 }
  
-container {
- border: solid 2px #806868;
- display: flex;
-  
-  
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .item {
@@ -32,14 +32,32 @@ container {
   color: white;
   border-radius: 100px;
   text-align: center;
-}
-
-.botfb {
-   background-color: #0a40bd;
-  text-align: center;
-   border-radius: 100px;
+  flex-direction: column;
+  display: flex;
 }
 
 .link {
   color: white;
+}
+
+.details {
+ font-family: helvetica;
+}
+
+a {
+  text-align: center;
+}
+
+.botão {
+   border: 2px solid black;
+ padding: 10px;
+ margin: 5px;
+  background-color: black;
+    border-radius: 100px;
+  color: white;
+}
+
+.linha {
+  background-color: black;
+  border: 1px solid black;
 }
