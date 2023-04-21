@@ -24,7 +24,7 @@ ECLESIASTES 12: 1,7. -->
     img {
       padding-top: 75px;
 
-      border-radius: 100%;
+     
       width: 100%;
 
 
@@ -45,6 +45,18 @@ ECLESIASTES 12: 1,7. -->
       padding: 10px;
       margin: 5px;
       background-color: darkblue;
+      color:white;
+      border-radius: 100px;
+      text-align: center;
+      flex-direction: column;
+      display: flex;
+    }
+
+    .item1 {
+      border: 5px solid  black;
+      padding: 10px;
+      margin: 5px;
+      background-color: black;
       color:white;
       border-radius: 100px;
       text-align: center;
@@ -77,8 +89,21 @@ ECLESIASTES 12: 1,7. -->
       background-color: black;
       border: 1px solid black;
     }
-    .video {
+
+    .qdc {
+      border: solid 2px black;
       width: 100%;
+      background-color: darkorange;
+    
+    }
+
+    .item2 {
+      width: 100%;
+      align-items: center;
+    }
+
+    .rb {
+      color: red;
     }
   </style>
   <title>SETOR_TECNICO</title>
@@ -95,8 +120,8 @@ ECLESIASTES 12: 1,7. -->
 
 <body>
 
-  <img src="teste web/logo.jpeg">
-   <div class="container">
+  <img class="inicio" src="teste web/logo.jpeg">
+   <div class="containers">
 
     <details>
       <summary class="item">
@@ -172,9 +197,32 @@ ECLESIASTES 12: 1,7. -->
           <details>
             <summary class="item">CFTV🎥</summary>
             <br>
-            <li><a class="botão"
+            <li><a class="item1"
                 href="https://drive.google.com/file/d/1XMr3ZGDVpuv4DKd9ZoJwAHcqRgT5d5wK/view?usp=drivesdk">O que é
                 CFTV?</a></li>
+          
+            <details>
+              <summary class="item1">Principais modelos de câmeras</summary>
+              <p><b>Bullet</b>(comumente "canhão"), para áreas externas.</p>
+              <img src="https://backend.intelbras.com/sites/default/files/2022-03/camera-bullet-infravermelha-hdcvi-5-mp-vhd-3530-b.jpg">
+              
+              <p><b>Dome</b>, para áreas internas.</p>
+              <img src="https://backend.intelbras.com/sites/default/files/2021-08/camera-dome-vhc-1120-d.jpg">
+            </details>
+            
+             <details>
+               <summary class="item1">Conectores</summary>
+                  <img src="https://backend.intelbras.com/sites/default/files/styles/large/public/2019-12/1393---Flyer-Digital---VB_1016_WP_09.jpg">
+<h2><b>Power Balun</b></h2>
+               <button><a href="https://backend.intelbras.com/sites/default/files/2020-08/datasheet-vb_1016_wp_v2.pdf">Ficha Técnica</a></button>
+               
+               <img src="https://backend.intelbras.com/sites/default/files/styles/large/public/2022-04/muito-mais-alcance-vb-500-p-g2.jpg">
+               <h2><b>Balun Passivo</b></h2>
+               <button><a href="https://backend.intelbras.com/sites/default/files/2022-09/Manual_VB_500P_501P_502B_503B_01-20_site.pdf">MANUAL</a></button>
+             </details>
+             <li>Saiba o que é a tecnologia multiHD</li>
+             <li></li>
+             <li></li>
             <br>
             <br>
             <li><a class="botão" href="https://youtu.be/7t6pijHBARE">CFTV BÁSICO</a></li>
@@ -186,7 +234,7 @@ ECLESIASTES 12: 1,7. -->
             <summary class="item">ALARMES🔔</summary>
             <details>
               <br>
-              <summary>Centrais Active jfl</summary>
+              <summary class="item1">Centrais Active jfl</summary>
               <br>
               <li><a class="botão"
                   href="https://drive.google.com/file/d/1XZOgyyfzh3HFlHKwNS_brocEJF3osDmO/view?usp=drivesdk">Esquema de
@@ -259,7 +307,7 @@ ECLESIASTES 12: 1,7. -->
             <summary class="item">NOBREAKS E BATERIAS🔋</summary>
             <br>
               <details>
-            <summary class="item">APC 1500</summary>
+            <summary class="item1">APC 1500</summary>
                 <br>
             <li><a class="botão" href="#">MANUAL COMPLETO</a></li>
                 <br>
@@ -272,7 +320,7 @@ ECLESIASTES 12: 1,7. -->
           </details>
            
             <details>
-              <summary class="item">APC 700</summary>
+              <summary class="item1">APC 700</summary>
              <br>
   <li><a class="botão" href="#">MANUAL COMPLETO</a></li>
                 <br>
@@ -285,7 +333,7 @@ ECLESIASTES 12: 1,7. -->
             </details>
             
             <details>
-            <summary class="item">SG 1500 (12 e 24 V)</summary>
+            <summary class="item1">SG 1500 (12 e 24 V)</summary>
               <br>
              <li><a class="botão" href="#">MANUAL COMPLETO</a></li>
                 <br>
@@ -298,7 +346,7 @@ ECLESIASTES 12: 1,7. -->
             </details>
              
             <details>
-            <summary class="item">VOLT GATE (12 e 24 V)</summary>
+            <summary class="item1">VOLT GATE (12 e 24 V)</summary>
               <br>
              <li><a class="botão" href="#">MANUAL COMPLETO</a></li>
                 <br>
@@ -311,7 +359,7 @@ ECLESIASTES 12: 1,7. -->
             </details>
               
             <details>
-            <summary class="item">GNB 1500 24 V INTELBRAS</summary>
+            <summary class="item1">GNB 1500 24 V INTELBRAS</summary>
               <br>
              <li><a class="botão" href="#">MANUAL COMPLETO</a></li>
                 <br>
@@ -329,24 +377,177 @@ ECLESIASTES 12: 1,7. -->
             </li>
             <br>
             <br>
-            <li><a class="botão" href="https://www.moura.com.br/blog/o-que-e-bateria-estacionaria/">Saiba o que é uma
-                bateria estacionária</a></li>
+            <li><a class="botão" 
+                  href="https://www.moura.com.br/blog/o-que-e-bateria-estacionaria/">Saiba o que é uma bateria estacionária</a>
+            </li>
             <br>
             <br>
           </details>
           <details>
             <summary class="item">PLACAS E MOTORES⚙️</summary>
+            <br> 
             <details>
-              <summary>Portas Giro; Rac; Wind PPA</summary>
+              <summary class="item1">PLACA PARA MOTOR: Giro; Rac; Wind PPA</summary>
+             
+              <details>
+                <summary class="botão">CENTRAL TRIFLEX
+CONNECT 24V PS</summary>
+                <img class="placa" src="https://portalppa.blob.core.windows.net/ppa/content/library/images/triflex_brushless_24v_ps.png">
+                <button><a href="https://drive.google.com/file/d/1fVQU4OuLSyrbjar2heGo-APtyq9Lj3fV/view?usp=drivesdk">MANUAL COMPLETO</a></button>
+                <br>
+              
+                <details>
+                  <summary><b>Desbloquear Funções no Prog</b></summary>
+                  <p><b>10.2 PROGRAMAÇÃO DE PARÂMETROS</b></p>
+Para entrar no menu de funções, mantenha pressionado o botão <b>&rarr;</b> 
+do seletor de funções até que a tela mude para o indicador de status de
+entrada (Dashboard).
+0 (Desligado), 1 (Ligado).
+RDE: Radar Externo; RDI: Radar Interno; AC: Alimentação rede
+elétrica; BOT: Botoeira; FOT: Fotocélula; FI: Fotocélula interna
+(embutir)
+Para navegar pelo menu de funções serão utilizadas as seguintes teclas
+<b>“<” e “>”</b>. Para incrementar o parâmetro da tela, utilizar a tecla <b>“+”</b> e para
+decrementar utiliza a tecla  <b>“-”</b>.</p>
+                  <p><b>5. APAGAR O PERCURSO GRAVADO</b></p>
+                  <p>Para apagar o percurso, basta pressionar o botão “GRV” e segurá-lo
+pressionado até que o LED “OSC” acenda. Ao soltá-lo, o percurso estará
+apagado.
+ <b>NOTA: O jumper “PROG” deve estar aberto.</b></p>
+                </details>
+                
+                </details>
+                         <details>
+                  <summary class="botão">CENTRAL TRIFLEX CONNECT
+BRUSHLESS PS(AC)</summary>
+                   <img class="placa" src="https://portalppa.blob.core.windows.net/ppa/content/library/images/Triflex_Brushless_PS_copy_4214133.jpg">
+                <button><a href="https://drive.google.com/file/d/1fcx3BIniQv8rimlSIdJ-QlAZSAPI_kGM/view?usp=drivesdk">MANUAL COMPLETO</a></button>
+                           <details>
+                             <summary><b>Desbloquear Funções no Prog</b></summary>
+                             
+                             <p><b>4.3. Desbloqueio do teclado</b></p>
+A central tem o teclado bloqueado para entrada nos parâmetros de operação por padrão de fábrica.
+Para desbloquear o teclado programador, basta pressionar os botões <b>“(-)”</b> e
+<b>“(SEL)”</b> simultaneamente até que a mensagem abaixo seja mostrada no display:
+“Desbloquear?”
+Pressione <b>“(OK)”</b> para desbloquear ou <b>“(+)”</b>  para cancelar esta ação.
+Para bloquear, basta repetir o processo acima.
+                           </details>
+              </details>
+              <details>
+                             <summary class="botão">Comparativo dos 2 <b>PROG's</b>, Para Fácil Entendimento</summary>
+                            <img src="https://portalppa.blob.core.windows.net/ppa/content/library/images/seletor_de_funcoes.jpg">
+                <br>
+                            <img src="https://portalppa.blob.core.windows.net/ppa/content/library/images/PPA_PROG_2022_04_(1).png">
+                           </details>
               <li>Giro</li>
               <li>Rac</li>
               <li>Wind</li>
             </details>
           </details>
+          
+          <details>
+          <summary class="item">QUADRO DE COMANDOS</summary>
+            <img  src="https://www.orbitaeletricidade.com.br/template/imagens/palavras-chave/quadro-comando-eletrico-2.jpg">
+        <div class="qdc">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>CONVERSOR DE FIBRA</summary>
+            <h2>A aqui temos o provedor principal</h2>
+            <p>Porta <b>RJ 45</b> conctada à porta 1 da <b>RB</b>!</p>
+            <img src="https://www.seccon.com.br/wp-content/uploads/2019/09/foto1-35.jpg">
+            <p><b>POWER</b>: Luz verde contínua: Ligado.</p>
+             <p><b>PON</b>: Luz verde contínua: Operação normal.</p>
+              <p><b>LOS</b>: Luz vermelha piscando: sem sinal óptico; <b class="rb">Reportar à TI para contatar o provedor</b>!</p>
+              <p><b>LAN</b>: Luz verde piscando: Transmissão de dados!</p>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+   <button class="item2"><details>
+     <summary>RB</summary>
+     <h2>Router Board MikroTik</h2>
+    <p>Equipamento responsável por gerenciar <b>todo o fluxo que entra e sai da rede!</b></p>
+     <h2 class="rb">ATENÇÃO!</h2>
+     <P><h3>EM CASO DE CONDOMÍNIO OFF, VERIFICAR EQUIPAMENTO JUNTO À TI</h3></P>
+     <img src="https://i.mt.lv/cdn/rb_images/1405_hi_res.png">
+     <p>Na porta <b>1(PoE in)</b> é ligado o cabo que vem do provedor, geralmente <b>TEXNET</b>!</p>
+     <p>Nas portas <b>2, 3, 4</b>; são ligados: <b>MÓDULO GUARITA, DVR e SWITCH</b>, a ordem é independente!</p>
+     <p>Na porta <b>5</b> é ligado o link secundário<b>(outra internet)</b>!</p>
+     <details>
+       <summary>veja como tal</summary></details>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+   <button class="item2"><details>
+     <summary>SWITCH</summary>
+     <h2><b>Switch 8 portas</b></h2>
+     <p>A porta 1<b>(INTERNET)</b> é ligada na RB! 
+     » As demais portas são <b>Plug & Play</b> para demais equipamentos da rede, como por exemplo, uma <b>CENTRAL DE ALARME</b>, ou um cascateamento para outro switch! </p>
+     <img src="https://backend.intelbras.com/sites/default/files/styles/large/public/2021-11/mais-seguranca-e-privacidade-aos-usuarios-conectados-sg-800-vlan.jpg">
+   </details></button>
+          <br>
+       &nbsp;&nbsp;&nbsp;&nbsp;
+           <button class="item2"><details>
+     <summary>MÓDULO GUARITA</summary>
+             <h2>Gerenciador de acesso</h2>
+             <h3>07 - ESPECIFICAÇÕES TÉCNICAS</h3>
+             <p><b>ALIMENTAÇÃO</b></p>
+12VDC / 2A
+<p><b>TIPO DE OPERAÇÃO</b></p>
+Interligado aos receptores Nice RTX3004, CTW3004 e RMF3004 além
+dos receptores Linear-HCS TX-2005, TX-2009, TX-4, TX-4A, CT-2009,
+CT-2, CTW-4, CTW-4A, MULTIFUNÇÃO, MULTIFUNÇÃO-4A.
+             <img src="https://nice.com.br/novo2017/wp-content/uploads/2018/06/guarita-2.png">
+            <a href="https://drive.google.com/file/d/1gdhVpgqamq3JvepCFy2MYaF9R6J4O55A/view?usp=drivesdk">Esquema de ligação da rede <b>CAN</b> nas duas versões!</a>
+             <br>
+             <a href="https://nice.com.br/novo2017/wp-content/uploads/2018/06/3000xxxx-MANUAL-INST-MODULO-GUARITA-MG3000-site-Rev-02-1.pdf">MANUAL COMPLETO</a>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+           <button class="item2"><details>
+     <summary>MÓDULO GUARITA</summary>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <button class="item2"><details>
+     <summary>CTW</summary>
+   </details></button> 
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>INTERLOCK</summary>
+   </details></button> 
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>SECBOX CONTROL ID</summary>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>ATA FXS/FXO</summary>
+   </details></button>
+           &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>TEMPORIZADORES IPEC</summary>
+   </details></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>Switch</summary>
+   </details></button>
+           &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>Switch</summary>
+   </details></button>
+           &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>Switch</summary>
+   </details></button>
+           &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="item2"><details>
+     <summary>Switch</summary>
+   </details></button>
+  </div>
+        </details>
+          
           <details>
             <summary class="item">CURSOS RÁPIDOS E GRATUITOS📚</summary>
             <details>
-              <summary>Aqui você tem outros meios de aperfeiçoar seus conhecimentos</summary>
+              <summary class="botão">Aqui você tem outros meios de aperfeiçoar seus conhecimentos</summary>
               <br>
               <li>
                 <a class="botão"
@@ -360,6 +561,8 @@ ECLESIASTES 12: 1,7. -->
               <br>
             </details>
         </ul>
+        
+        
       </details>
       <hr class="linha" />
       <details>
@@ -384,7 +587,27 @@ ECLESIASTES 12: 1,7. -->
       </details>
 
       <hr class="linha" />
+<details>
+        <summary class="item">LISTA DE RAMAIS DOS CONDOMÍNIOS</summary>
+        <!--Para que a gente possa fazer uma lista de pesquisa, vou ter que trabalhar com formulario, input, detalist, buscando os endereços  que estão no banco de dados php-->
+        <form>
 
+          <input type="text" placeholder="Pesquisa">
+          <button>Ir</button>
+
+          <ul>
+            <li>Condomínio A</li>
+            <br>
+            <li>Condomínio B</li>
+            <br>
+            <li>Condomínio C</li>
+            <br>
+          </ul>
+
+        </form>
+
+</details>
+      <hr class="linha" />
       <details>
         <summary class="item">LEVANTAMENTO E RETIRADA DE MATERIAL</summary>
         <br>
@@ -402,8 +625,6 @@ ECLESIASTES 12: 1,7. -->
     </details>
 
   </div>
-
-  </form>
 
   <footer>
     <p class=""><a href="mailto:suportet0617@gmail.com">Para melhorar com os conteúdos, deixe seu feedback!😃</a></p>
